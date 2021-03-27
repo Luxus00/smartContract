@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.7.6+commit.7338295f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getSize",
+				"outputs": [
+					{
+						"internalType": "enum fruit.fruitSize",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setSize",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"browser/tests/fruit.sol": "fruit"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"browser/tests/fruit.sol": {
+			"keccak256": "0x2edab8b758d29366a0268cd9f2757900a90c0944d7b52a21ddb8a34803b52a99",
+			"urls": [
+				"bzz-raw://1e614396bc803a67dd98107d6559ad5005729c640bbe8301083a0e6eb4980663",
+				"dweb:/ipfs/QmZVWxdeBXyRp748fAiba9f9U1fVWoy7vCnyRsyERtmqXG"
+			]
+		}
+	},
+	"version": 1
+}
